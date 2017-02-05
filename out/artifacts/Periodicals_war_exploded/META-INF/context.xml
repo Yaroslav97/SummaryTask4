@@ -1,0 +1,17 @@
+<Context>
+    <Resource
+            description="DB Connection"
+            driverClass="com.mysql.jdbc.Driver"
+            user="root"
+            password="poliak1997"
+            jdbcUrl="jdbc:mysql://localhost:3306/periodical?characterEncoding=UTF-8"
+            factory="org.apache.naming.factory.BeanFactory"
+            type="com.mchange.v2.c3p0.ComboPooledDataSource"
+            name="jdbc/periodical"
+            maxPoolSize="100"
+            minPoolSize="0"
+            maxConnectionAge="10000"
+            acquireRetryAttempts="60"
+            acquireIncrement="1"
+    />
+</Context>
